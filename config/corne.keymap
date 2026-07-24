@@ -5,24 +5,50 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
 
 / {
-    chosen {
-        zmk,matrix-transform = &five_column_transform;
-    };
+    chosen { zmk,matrix-transform = &five_column_transform; };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        BASE {
             bindings = <
-/* 5-column bindings start here (36 keys total) */
-  &kp Q  &kp W  &kp E  &kp R  &kp T     &kp Y  &kp U  &kp I     &kp O   &kp P
-  &kp A  &kp S  &kp D  &kp F  &kp G     &kp H  &kp J  &kp K     &kp L   &kp SEMI
-  &kp Z  &kp X  &kp C  &kp V  &kp B     &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH
-                &kp LALT &mo 1 &kp SPACE   &kp RET &mo 2 &kp RGUI
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Pinky {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Ring {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Middle {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Index {
+            bindings = <
+&trans   &trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &lt 1 H  &lt 2 S
+&lt 3 R  &lt 4 N  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
+&trans   &trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
             >;
         };
     };
