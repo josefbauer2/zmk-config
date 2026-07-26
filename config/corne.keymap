@@ -24,7 +24,29 @@
         };
     };
 };
+/ {
+    behaviors {
+        mt_bspc: mod_tap_backspace {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";      // or "balanced" / "tap-preferred"
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;           // Tapping then holding within 200ms holds Backspace
+            bindings = <&kp>, <&kp>;
+        };
+    };
 
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
+                /* ... other keys ... */
+                &mt_bspc LSHIFT BSPC        /* Tap = BSPC | Hold = LSHIFT | Tap-Hold = Repeating BSPC */
+                /* ... other keys ... */
+            >;
+        };
+    };
+};
 / {
     behaviors {
         mt_del: mod_tap_delete {
