@@ -85,7 +85,7 @@
             bindings = <
 &kp V    &kp F    &kp L   &kp M  &kp X    &kp J      &kp U    &kp O    &kp COMMA  &lt 6 P                    &kp H      &lt 1 S
 &lt 2 R  &lt 3 N  &kp B   &kp Y  &lt 3 I  &lt 2 E    &lt 1 A  &kp C    &kp K      &kp G                      &kp W      &trans
-&trans   &trans   &trans  &kp Q  &kp DOT  &kp Y      &trans   &lt 0 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
+&trans   &trans   &trans  &kp Q  &kp DOT  &kp Y      &trans   &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
             >;
         };
 
@@ -115,17 +115,17 @@
 
         arrows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(N7)  &kp SLASH  &kp UP   &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &trans    &trans  &trans  &trans  &trans  &kp HOME  &kp LEFT
+&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &trans  &trans  &trans    &trans
+&trans      &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans  &trans    &trans
             >;
         };
 
         shortcuts {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LA(LC(DELETE))  &kp LG(E)      &kp LC(LS(ESCAPE))  &kp PRINTSCREEN  &trans    &trans  &trans  &trans     &trans        &kp LC(S)  &kp LC(X)
+&kp LC(C)   &kp LC(V)           &kp LA(ENTER)  &trans              &trans           &trans    &trans  &trans  &kp LCTRL  &kp LEFT_ALT  &trans     &trans
+&trans      &trans              &trans         &trans              &trans           &trans    &trans  &trans  &trans     &trans        &trans     &trans
             >;
         };
 
