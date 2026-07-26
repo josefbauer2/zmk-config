@@ -50,16 +50,16 @@
         Middle {
             bindings = <
 &trans  &trans      &trans      &kp RA(M)   &trans         &trans    &kp LS(QUESTION)  &trans  &kp LS(NUMBER_2)  &kp LS(N5)  &kp GRAVE      &kp LS(N7)
-&trans  &kp RA(N8)  &kp RA(N7)  &kp RA(N0)  &kp RA(N9)     &trans    &kp RA(E)         &trans  &trans            &trans      &kp LS(GRAVE)  &trans
+&trans  &kp RA(N8)  &kp RA(N7)  &kp RA(N0)  &kp RA(N9)     &trans    &kp RA(Q)         &trans  &trans            &trans      &kp LS(GRAVE)  &trans
 &trans  &trans      &trans      &trans      &kp LS(MINUS)  &trans    &trans            &trans  &trans            &trans      &kp TAB        &trans
             >;
         };
 
         Index {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp N3  &kp N6  &kp N7  &kp N8  &kp N9  &kp KP_NUMLOCK    &kp LS(NUMBER_6)  &trans  &trans   &trans     &kp N2     &kp N1
+&kp N0  &kp N5  &kp N4  &trans  &trans  &trans            &trans            &trans  &kp DEL  &kp MINUS  &kp COMMA  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans            &trans  &trans   &trans     &trans     &trans
             >;
         };
 
