@@ -26,6 +26,30 @@
 };
 
 / {
+    behaviors {
+        mt_del: mod_tap_delete {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";      // or "balanced" depending on your preference
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;           // Tapping then holding within 200ms holds DELETE
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
+                /* ... other keys ... */
+                &mt_del LSHIFT DEL         /* Tap = DEL | Hold = LSHIFT | Tap-Hold = Repeating DEL */
+                /* ... other keys ... */
+            >;
+        };
+    };
+};
+
+/ {
     chosen { zmk,matrix-transform = &five_column_transform; };
 
     keymap {
