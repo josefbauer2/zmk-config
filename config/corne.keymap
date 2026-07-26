@@ -23,9 +23,9 @@
 
         Ring {
             bindings = <
-&kp LS(NUMBER_3)      &kp F         &kp PIPE              &kp SLASH      &kp GREATER_THAN  &kp LA(N6)    &kp LBKT          &kp SEMI               &kp LS(PIPE)  &kp LA(N2)  &kp RA(NUMBER_2)  &kp MINUS
-&kp NON_US_BACKSLASH  &kp ASTERISK  &kp NON_US_BACKSLASH  &trans         &kp LS(N9)        &kp RA(E)     &kp SINGLE_QUOTE  &trans                 &trans        &kp LS(N0)  &kp LEFT_GUI      &trans
-&trans                &trans        &trans                &kp RIGHT_GUI  &kp LS(NUMBER_1)  &trans        &trans            &kp RA(RIGHT_BRACKET)  &trans        &kp DELETE  &kp ENTER         &trans
+&kp LS(NUMBER_3)      &kp F         &kp PIPE              &kp SLASH      &kp GREATER_THAN  &kp LA(N6)    &kp LBKT          &kp SEMI               &kp LS(PIPE)  &kp RA(RS(EQUAL))  &kp RA(NUMBER_2)  &kp MINUS
+&kp NON_US_BACKSLASH  &kp ASTERISK  &kp NON_US_BACKSLASH  &trans         &kp LS(N9)        &kp RA(E)     &kp SINGLE_QUOTE  &trans                 &trans        &kp LS(N0)         &kp LEFT_GUI      &trans
+&trans                &trans        &trans                &kp RIGHT_GUI  &kp LS(NUMBER_1)  &trans        &trans            &kp RA(RIGHT_BRACKET)  &trans        &kp DELETE         &kp ENTER         &trans
             >;
         };
 
