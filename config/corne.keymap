@@ -83,9 +83,9 @@
 
         Base {
             bindings = <
-&kp V    &kp F    &kp L   &kp M  &kp X    &kp J      &kp U    &kp O    &kp COMMA  &lt 6 P                    &kp H      &lt 1 S
-&lt 2 R  &lt 3 N  &kp B   &kp Y  &lt 3 I  &lt 2 E    &lt 1 A  &kp C    &kp K      &kp G                      &kp W      &trans
-&trans   &trans   &trans  &kp Q  &kp DOT  &kp Y      &trans   &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
+&kp V    &kp F    &kp L  &kp M  &kp X    &kp J      &kp U    &kp O    &kp COMMA  &lt 6 P                    &kp H      &lt 1 S
+&lt 2 R  &lt 3 N  &kp B  &kp Y  &lt 3 I  &lt 2 E    &lt 1 A  &kp C    &kp K      &kp G                      &kp W      &kp X
+&trans   &trans   &kp J  &kp Q  &kp DOT  &kp Y      &trans   &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
             >;
         };
 
@@ -139,9 +139,9 @@
 
         GamingBase {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp V   &kp F   &kp L   &kp M   &kp X   &trans    &trans  &trans  &trans  &trans  &kp H   &kp S
+&kp R   &kp N   &kp B   &trans  &trans  &trans    &trans  &trans  &kp K   &kp G   &kp W   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp T   &kp D   &trans  &trans  &trans
             >;
         };
 
