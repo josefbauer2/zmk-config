@@ -25,7 +25,6 @@
     };
 };
 
-
 / {
     chosen { zmk,matrix-transform = &five_column_transform; };
 
@@ -35,15 +34,15 @@
         Base {
             bindings = <
 &kp V    &kp F    &kp L  &kp M  &kp X    &kp J      &kp U    &kp O    &kp COMMA  &lt 6 P                    &kp H      &lt 1 S
-&lt 2 R  &lt 3 N  &kp B  &kp Y  &lt 3 I  &lt 2 E    &lt 1 A  &kp C    &kp K      &kp G                      &kp W      &kp X
+&lt 2 R  &lt 3 N  &kp B  &kp Z  &lt 3 I  &lt 2 E    &lt 1 A  &kp C    &kp K      &kp G                      &kp W      &kp X
 &trans   &trans   &kp J  &kp Q  &kp DOT  &kp Y      &trans   &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
             >;
         };
 
         Ring {
             bindings = <
-&kp LS(NUMBER_3)  &kp F       &kp RA(NON_US_BACKSLASH)  &kp SLASH      &kp NON_US_BSLH   &kp LS(NON_US_BSLH)    &kp LBKT          &kp SEMI               &kp SQT  &plus_minus                    &kp RA(NUMBER_2)  &kp MINUS
-&kp RA(NUMBER_3)  &kp LS(N8)  &kp RA(MINUS)             &trans         &kp LS(N9)        &kp RA(E)              &kp SINGLE_QUOTE  &trans                 &trans   &kp LS(N0)                     &kp LEFT_GUI      &trans
+&kp LS(NUMBER_3)  &kp F       &kp RA(NON_US_BACKSLASH)  &kp SLASH      &kp NON_US_BSLH   &kp LS(NON_US_BSLH)    &kp LBKT          &kp SEMI               &kp SQT  &plus_minus               &kp RA(NUMBER_2)  &kp MINUS
+&kp RA(NUMBER_3)  &kp LS(N8)  &kp RA(MINUS)             &trans         &kp LS(N9)        &kp RA(E)              &kp SINGLE_QUOTE  &trans                 &trans   &kp LS(N0)                &kp LEFT_GUI      &trans
 &trans            &trans      &trans                    &kp RIGHT_GUI  &kp LS(NUMBER_1)  &trans                 &trans            &kp RA(RIGHT_BRACKET)  &trans   &mt LEFT_SHIFT BACKSPACE  &kp ENTER         &trans
             >;
         };
