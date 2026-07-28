@@ -33,9 +33,9 @@
 
         Base {
             bindings = <
-&kp V    &kp F    &kp L  &kp M  &kp X    &kp J      &kp U    &lt 4 O  &kp COMMA  &lt 6 P                    &kp H      &lt 1 S
-&lt 2 R  &lt 3 N  &kp B  &kp Z  &lt 3 I  &lt 2 E    &lt 1 A  &kp C    &kp K      &kp G                      &kp W      &kp X
-&trans   &trans   &kp J  &kp Q  &kp DOT  &kp Y      &trans   &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
+&kp V    &kp F    &kp L  &kp M  &kp X    &kp J      &kp U            &lt 4 O  &kp COMMA  &lt 6 P                    &kp H      &lt 1 S
+&lt 2 R  &lt 3 N  &kp B  &kp Z  &lt 3 I  &lt 2 E    &lt 1 A          &kp C    &kp K      &kp G                      &kp W      &kp X
+&trans   &trans   &kp J  &kp Q  &kp DOT  &kp Y      &lt 4 BACKSPACE  &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
             >;
         };
 
@@ -57,9 +57,9 @@
 
         Index {
             bindings = <
-&kp N3  &kp N6  &kp N7  &kp N8  &kp N9  &kp KP_NUMLOCK    &kp LS(NUMBER_6)  &trans     &trans         &trans     &kp N2     &kp N1
-&kp N0  &kp N5  &kp N4  &trans  &trans  &sk LEFT_GUI      &sk LEFT_ALT      &sk RCTRL  &kp DEL        &kp MINUS  &kp COMMA  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans            &kp ENTER  &kp BACKSPACE  &trans     &trans     &trans
+&kp N3  &kp N6  &kp N7  &kp N8  &kp N9  &kp KP_NUMLOCK    &kp LS(NUMBER_6)  &trans     &trans   &trans     &kp N2     &kp N1
+&kp N0  &kp N5  &kp N4  &trans  &trans  &sk LEFT_GUI      &sk LEFT_ALT      &sk RCTRL  &kp DEL  &kp MINUS  &kp COMMA  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans            &kp ENTER  &kp DEL  &trans     &trans     &trans
             >;
         };
 
