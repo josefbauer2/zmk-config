@@ -75,7 +75,7 @@
             bindings = <
 &kp ESCAPE  &kp LA(LC(DELETE))  &kp LG(E)      &kp LC(LS(ESCAPE))  &kp PRINTSCREEN  &trans    &trans  &trans  &trans     &trans        &kp LC(S)  &kp LC(X)
 &kp LC(C)   &kp LC(V)           &kp LA(ENTER)  &trans              &trans           &trans    &trans  &trans  &kp LCTRL  &kp LEFT_ALT  &trans     &trans
-&trans      &trans              &trans         &trans              &trans           &trans    &trans  &trans  &trans     &trans        &trans     &trans
+&to 7       &trans              &trans         &trans              &trans           &trans    &trans  &trans  &trans     &trans        &trans     &trans
             >;
         };
 
@@ -89,7 +89,7 @@
 
         GamingBase {
             bindings = <
-&kp TAB  &kp Q   &kp W   &kp E   &kp R   &trans    &trans          &trans  &trans     &trans  &kp LSHFT  &kp A
+&kp TAB  &kp Q   &kp W   &kp E   &kp R   &trans    &trans          &trans  &trans     &to 0   &kp LSHFT  &kp A
 &kp S    &kp D   &kp F   &trans  &trans  &trans    &trans          &trans  &kp LCTRL  &kp Z   &kp X      &kp C
 &kp V    &trans  &trans  &trans  &trans  &trans    &lt 3 LEFT_ALT  &kp T   &lt 4 B    &trans  &trans     &trans
             >;
