@@ -35,7 +35,7 @@
             bindings = <
 &trans   &kp F    &kp L  &kp V  &kp X    &kp J      &kp P            &lt 4 O  &kp COMMA  &trans                     &kp H      &lt 1 S
 &lt 2 R  &lt 3 N  &kp B  &kp Z  &lt 3 I  &lt 2 E    &lt 1 A          &kp C    &kp K      &kp G                      &kp W      &kp M
-&trans   &trans   &kp U  &kp Z  &kp DOT  &kp Q      &lt 4 BACKSPACE  &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
+&trans   &trans   &kp U  &kp Y  &kp DOT  &kp Q      &lt 4 BACKSPACE  &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
             >;
         };
 
