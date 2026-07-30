@@ -66,8 +66,8 @@
         arrows {
             bindings = <
 &kp LS(N7)  &kp SLASH  &kp UP   &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &trans    &trans  &trans  &trans  &trans            &kp HOME  &kp LEFT
-&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &trans  &kp LS(NUMBER_0)  &trans    &trans
-&trans      &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
+&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &to 0   &kp LS(NUMBER_0)  &trans    &trans
+&to 7       &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
             >;
         };
 
@@ -81,25 +81,17 @@
 
         f-keys {
             bindings = <
-&kp F3   &kp F6  &kp F7  &kp F8  &kp F9  &trans    &trans  &trans  &trans   &trans   &kp F2  &kp F1
-&kp F10  &kp F5  &kp F4  &trans  &trans  &trans    &trans  &trans  &kp F11  &kp F12  &trans  &trans
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans   &trans  &trans
+&kp F1   &kp F2  &kp F3   &kp F4  &kp F5  &trans    &trans  &trans  &trans   &trans   &kp F6   &kp F7
+&kp F8   &kp F9  &kp F10  &trans  &trans  &trans    &trans  &trans  &kp F11  &kp F12  &kp F13  &kp F14
+&kp F15  &trans  &trans   &trans  &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans
             >;
         };
 
         GamingBase {
             bindings = <
-&kp TAB  &kp Q   &kp W   &kp E   &kp R   &trans    &trans          &trans  &trans     &to 0   &kp LSHFT  &kp A
-&kp S    &kp D   &kp F   &trans  &trans  &trans    &trans          &trans  &kp LCTRL  &kp Z   &kp X      &kp C
-&kp V    &trans  &trans  &trans  &trans  &trans    &lt 4 LEFT_ALT  &kp T   &lt 3 B    &trans  &trans     &trans
-            >;
-        };
-
-        Gaming1 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Y           &kp F7  &kp F8     &kp F9  &kp LSHFT  &kp A
+&kp S    &kp D  &kp F  &kp G   &kp H   &kp F4    &kp F5          &kp F6  &kp LCTRL  &kp Z   &kp X      &kp C
+&kp V    &kp N  &kp M  &kp F1  &kp F2  &kp F3    &lt 4 LEFT_ALT  &kp T   &lt 3 B    &kp I   &kp J      &kp Z
             >;
         };
     };
