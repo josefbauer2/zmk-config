@@ -75,7 +75,7 @@
             bindings = <
 &kp ESCAPE  &kp LA(LC(DELETE))  &kp LG(E)      &kp LC(LS(ESCAPE))  &kp PRINTSCREEN  &trans       &trans  &trans  &trans     &trans        &kp LC(S)     &kp LC(X)
 &kp LC(C)   &kp LC(V)           &kp LA(ENTER)  &trans              &trans           &trans       &trans  &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
-&to 7       &trans              &trans         &kp RIGHT_GUI       &kp RIGHT_ALT    &kp RCTRL    &trans  &trans  &trans     &trans        &trans        &trans
+&trans      &trans              &trans         &kp RIGHT_GUI       &kp RIGHT_ALT    &kp RCTRL    &trans  &trans  &trans     &trans        &trans        &trans
             >;
         };
 
