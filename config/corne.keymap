@@ -66,8 +66,8 @@
         arrows {
             bindings = <
 &kp LS(N7)  &kp SLASH  &kp UP   &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &trans    &trans  &trans  &trans  &trans            &kp HOME  &kp LEFT
-&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &to 0   &kp LS(NUMBER_0)  &trans    &trans
-&to 7       &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
+&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &trans  &kp LS(NUMBER_0)  &trans    &tog 0
+&tog 7      &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
             >;
         };
 
