@@ -33,9 +33,17 @@
 
         Base {
             bindings = <
-&trans   &kp F    &kp L  &kp V  &kp X    &kp J      &kp P            &lt 4 O  &kp COMMA  &trans                     &kp H      &lt 1 S
-&lt 2 R  &lt 3 N  &kp B  &kp Z  &lt 3 I  &lt 2 E    &lt 1 A          &kp C    &kp K      &kp G                      &kp W      &kp M
-&trans   &trans   &kp U  &kp Y  &kp DOT  &kp Q      &lt 4 BACKSPACE  &lt 3 T  &lt 5 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
+&trans   &kp F    &kp L  &kp V  &kp X    &kp J      &kp P            &lt 5 O  &kp COMMA  &trans                     &kp H      &lt 2 S
+&lt 3 R  &lt 4 N  &kp B  &kp Z  &lt 4 I  &lt 3 E    &lt 2 A          &kp C    &kp K      &kp G                      &kp W      &kp M
+&trans   &trans   &kp U  &kp Y  &kp DOT  &kp Q      &lt 5 BACKSPACE  &lt 4 T  &lt 6 D    &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &trans
+            >;
+        };
+
+        GamingBase {
+            bindings = <
+&kp TAB  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Y           &kp F7  &kp F8     &kp F9  &kp LSHFT  &kp A
+&kp S    &kp D  &kp F  &kp G   &kp H   &kp F4    &kp F5          &kp F6  &kp LCTRL  &kp Z   &kp X      &kp C
+&kp V    &kp N  &kp M  &kp F1  &kp F2  &kp F3    &lt 5 LEFT_ALT  &kp T   &lt 4 B    &kp I   &kp J      &kp Z
             >;
         };
 
@@ -67,7 +75,7 @@
             bindings = <
 &kp LS(N7)  &kp SLASH  &kp UP   &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &trans    &trans  &trans  &trans  &trans            &kp HOME  &kp LEFT
 &kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &trans  &kp LS(NUMBER_0)  &trans    &tog 0
-&tog 7      &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
+&tog 1      &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
             >;
         };
 
@@ -84,14 +92,6 @@
 &kp F1   &kp F2  &kp F3   &kp F4  &kp F5  &trans    &trans  &trans  &trans   &trans   &kp F6   &kp F7
 &kp F8   &kp F9  &kp F10  &trans  &trans  &trans    &trans  &trans  &kp F11  &kp F12  &kp F13  &kp F14
 &kp F15  &trans  &trans   &trans  &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans
-            >;
-        };
-
-        GamingBase {
-            bindings = <
-&kp TAB  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Y           &kp F7  &kp F8     &kp F9  &kp LSHFT  &kp A
-&kp S    &kp D  &kp F  &kp G   &kp H   &kp F4    &kp F5          &kp F6  &kp LCTRL  &kp Z   &kp X      &kp C
-&kp V    &kp N  &kp M  &kp F1  &kp F2  &kp F3    &lt 4 LEFT_ALT  &kp T   &lt 3 B    &kp I   &kp J      &kp Z
             >;
         };
     };
