@@ -32,6 +32,7 @@
         compatible = "zmk,keymap";
 
         Base {
+            display-name = "Base";
             bindings = <
 &trans   &kp F    &kp L  &kp V  &kp X    &kp J      &kp P            &lt 5 O  &kp COMMA  &trans                     &kp H      &lt 2 S
 &lt 3 R  &lt 4 N  &kp B  &kp Z  &lt 4 I  &lt 3 E    &lt 2 A          &kp C    &kp K      &kp G                      &kp W      &kp M
