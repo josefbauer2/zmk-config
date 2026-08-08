@@ -86,9 +86,9 @@
         Middle {
             display-name = "Middle";
             bindings = <
-&trans  &trans      &trans         &kp RA(M)   &trans         &trans    &kp LS(N5)  &trans  &kp LS(NUMBER_2)  &trans         &kp GRAVE  &kp LS(N7)
-&trans  &kp RA(N8)  &kp RA(N7)     &kp RA(N0)  &kp RA(N9)     &trans    &kp RA(Q)   &trans  &trans            &kp LS(GRAVE)  &trans     &trans
-&trans  &trans      &kp LS(SLASH)  &trans      &kp LS(MINUS)  &trans    &trans      &trans  &trans            &trans         &kp TAB    &trans
+&trans  &trans      &trans         &kp RA(M)   &trans         &trans    &kp LS(N5)  &diameter  &kp LS(NUMBER_2)  &trans         &kp GRAVE  &kp LS(N7)
+&trans  &kp RA(N8)  &kp RA(N7)     &kp RA(N0)  &kp RA(N9)     &trans    &kp RA(Q)   &trans     &trans            &kp LS(GRAVE)  &trans     &trans
+&trans  &trans      &kp LS(SLASH)  &trans      &kp LS(MINUS)  &trans    &trans      &trans     &trans            &trans         &kp TAB    &trans
             >;
         };
 
