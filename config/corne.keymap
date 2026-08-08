@@ -59,9 +59,9 @@
         GamingLSRN {
             display-name = "GameLSRN";
             bindings = <
-&kp TAB  &kp F    &kp L   &kp V   &kp X   &trans    &trans           &trans   &trans   &trans  &kp H   &lt 3 S
-&lt 4 R  &lt 5 N  &kp B   &trans  &trans  &trans    &trans           &trans   &kp K    &kp G   &kp W   &kp M
-&kp RET  &trans   &trans  &trans  &trans  &trans    &lt 6 BACKSPACE  &lt 5 T  &lt 5 D  &trans  &trans  &trans
+&kp TAB  &kp F    &kp L   &kp V   &kp X   &trans    &trans           &trans  &trans   &trans  &kp H   &lt 3 S
+&lt 4 R  &lt 5 N  &kp B   &trans  &trans  &trans    &trans           &trans  &kp K    &kp G   &kp W   &kp M
+&kp RET  &trans   &trans  &trans  &trans  &trans    &lt 6 BACKSPACE  &kp T   &lt 5 D  &trans  &trans  &trans
             >;
         };
 
