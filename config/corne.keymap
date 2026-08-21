@@ -68,9 +68,9 @@
         GamingWASD {
             display-name = "Game WASD";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Z           &kp F7     &kp F8     &kp F9  &kp LSHFT  &kp A
-&kp S    &kp D  &kp F  &kp G   &kp H   &kp F4    &kp F5          &kp F6     &kp LCTRL  &kp Y   &kp X      &kp C
-&kp V    &kp N  &kp M  &kp F1  &kp F2  &kp F3    &lt 6 LEFT_ALT  &kp SPACE  &lt 5 B    &trans  &trans     &trans
+&kp LEFT_ALT  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Z      &kp F7     &kp F8     &kp F9  &kp LSHFT  &kp A
+&kp S         &kp D  &kp F  &kp G   &kp H   &kp F4    &kp F5     &kp F6     &kp LCTRL  &kp Y   &kp X      &kp C
+&kp V         &kp N  &kp M  &kp F1  &kp F2  &kp F3    &lt 6 TAB  &kp SPACE  &lt 5 B    &trans  &trans     &trans
             >;
         };
 
