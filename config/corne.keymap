@@ -50,27 +50,18 @@
         Base {
             display-name = "Base";
             bindings = <
-&trans   &kp F    &kp L  &kp V  &kp X    &kp J      &kp P            &lt 6 O  &lt 8 COMMA  &trans                     &kp H      &lt 3 S
-&lt 4 R  &lt 5 N  &kp B  &kp Z  &lt 5 I  &lt 4 E    &lt 3 A          &kp C    &kp K        &kp G                      &kp W      &kp M
-&trans   &trans   &kp U  &kp Y  &kp DOT  &kp Q      &lt 6 BACKSPACE  &lt 5 T  &lt 7 D      &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &kp BACKSPACE
+&trans   &kp F    &kp L  &kp V  &kp X    &kp J      &kp P            &lt 5 O  &lt 7 COMMA  &trans                     &kp H      &lt 2 S
+&lt 3 R  &lt 4 N  &kp B  &kp Z  &lt 4 I  &lt 3 E    &lt 2 A          &kp C    &kp K        &kp G                      &kp W      &kp M
+&trans   &trans   &kp U  &kp Y  &kp DOT  &kp Q      &lt 5 BACKSPACE  &lt 4 T  &lt 6 D      &mt RIGHT_SHIFT BACKSPACE  &kp SPACE  &kp BACKSPACE
             >;
         };
 
-        GamingLSRN {
-            display-name = "GameLSRN";
+        Gaming {
+            display-name = "Gaming";
             bindings = <
-&kp TAB  &kp F    &kp L   &kp V   &kp X   &trans    &trans           &trans  &trans   &trans  &kp H   &lt 3 S
-&lt 4 R  &lt 5 N  &kp B   &trans  &trans  &trans    &trans           &trans  &kp K    &kp G   &kp W   &kp M
-&kp RET  &trans   &trans  &trans  &trans  &trans    &lt 6 BACKSPACE  &kp T   &lt 5 D  &trans  &trans  &trans
-            >;
-        };
-
-        GamingWASD {
-            display-name = "Game WASD";
-            bindings = <
-&kp LEFT_ALT  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Z      &kp F7     &kp F8     &kp F9  &kp LSHFT  &kp A
-&kp S         &kp D  &kp F  &kp G   &kp H   &kp F4    &kp F5     &kp F6     &kp LCTRL  &kp Y   &kp X      &kp C
-&kp V         &kp N  &kp M  &kp F1  &kp F2  &kp F3    &lt 6 TAB  &kp SPACE  &lt 5 B    &trans  &trans     &trans
+&kp TAB  &kp Q   &kp W   &kp E   &kp R   &trans    &trans           &trans     &trans   &trans  &kp H   &kp A
+&kp S    &kp D   &kp F   &trans  &trans  &trans    &trans           &trans     &kp K    &kp Y   &kp X   &kp C
+&kp V    &trans  &trans  &trans  &trans  &trans    &lt 5 BACKSPACE  &kp SPACE  &lt 4 B  &trans  &trans  &trans
             >;
         };
 
@@ -105,7 +96,7 @@
             display-name = "Arrows";
             bindings = <
 &kp LS(N7)  &kp SLASH  &kp UP   &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &trans    &trans  &trans  &trans  &trans            &kp HOME  &kp LEFT
-&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &trans  &kp LS(NUMBER_0)  &to 2     &to 1
+&kp DOWN    &kp RIGHT  &kp END  &trans             &trans                 &trans    &trans  &trans  &trans  &kp LS(NUMBER_0)  &to 1     &to 0
 &to 0       &trans     &trans   &trans             &trans                 &trans    &trans  &trans  &trans  &trans            &trans    &trans
             >;
         };
