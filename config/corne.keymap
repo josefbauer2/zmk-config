@@ -59,9 +59,9 @@
         Gaming {
             display-name = "Gaming";
             bindings = <
-&kp TAB  &kp Q   &kp W   &kp E   &kp R   &trans    &trans           &trans     &trans   &trans  &kp H   &kp A
-&kp S    &kp D   &kp F   &trans  &trans  &trans    &trans           &trans     &kp K    &kp Y   &kp X   &kp C
-&kp V    &trans  &trans  &trans  &trans  &trans    &lt 5 BACKSPACE  &kp SPACE  &lt 4 B  &trans  &trans  &trans
+&kp TAB  &kp Q   &kp W   &kp E   &kp R   &trans    &trans           &trans     &trans        &trans  &kp LCTRL  &kp A
+&kp S    &kp D   &kp F   &trans  &trans  &trans    &trans           &trans     &kp LEFT_ALT  &kp Y   &kp X      &kp C
+&kp V    &trans  &trans  &trans  &trans  &trans    &lt 5 BACKSPACE  &kp SPACE  &lt 4 B       &trans  &trans     &trans
             >;
         };
 
