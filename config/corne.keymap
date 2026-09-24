@@ -60,7 +60,7 @@
             display-name = "Gaming";
             bindings = <
 &kp TAB  &kp Q   &kp W   &kp E   &kp R          &trans              &trans           &trans        &kp LC(LA(P))  &kp C_VOL_UP  &kp LCTRL  &kp A
-&kp S    &kp D   &kp F   &trans  &trans         &trans              &kp LA(LC(M))    &kp C_VOL_DN  &kp LEFT_ALT   &kp Y         &kp X      &kp C
+&kp S    &kp D   &kp F   &trans  &trans         &trans              &kp LA(LC(N))    &kp C_VOL_DN  &kp LEFT_ALT   &kp Y         &kp X      &kp C
 &kp V    &trans  &trans  &trans  &kp LA(ENTER)  &kp C_PLAY_PAUSE    &lt 5 BACKSPACE  &kp SPACE     &lt 4 B        &trans        &trans     &trans
             >;
         };
